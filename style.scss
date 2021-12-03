@@ -1,0 +1,117 @@
+.form1{
+    text-align: center;
+    border: none; 
+}
+
+.form_advanced{
+    margin-left: 20px;
+}
+
+input[type= submit]{
+    color: black;
+    height: 40px;
+    width: 120px;
+    border-radius: 7px;
+    margin-top: 20px;
+    background-color: rgb(243, 243, 243);
+    border-color: rgb(243, 243, 243);
+    box-shadow: none;
+    margin: 30px;
+}
+
+input[type= text]{
+    font-size: 20px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(228, 228, 228);
+    height: 40px;
+    width: 600px;
+    padding-left: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input[type=submit]:hover{
+    box-shadow: 0px 0px 3px black;
+}
+
+.center_logo {
+    display: flex;
+    margin: auto;
+    margin-top: 2cm;
+}
+
+.link_other_search{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: right;
+    color: black;
+}
+.link_other_search:hover{
+    color: red;
+}
+
+
+.left_logo{
+display: flex;
+width: 120px;
+height: 40px;
+padding-left: 10px;
+}
+
+.link_in_advanced_table{
+    border-style: solid 5px black;
+    float: right;
+}
+
+.table_advanced{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-spacing: 20px;
+}
+
+input[type=text_advanced]{
+    width: 450px;
+    border-style: solid lightgray;
+}
+
+#header1{
+    font-size: 18px;
+}
+
+#explanation{
+    color: rgb(165, 165, 165);
+}
+
+#button_advanced{
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+
+.buttons{
+    display: block;
+}
+
+.explain_text_table_advanced{
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+}
+
+.center_table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    height: 40px;
+    padding: 10px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- links naar andere search pagina's-->
+        <div class="link_in_advanced_table">
+            <div class="link_other_search">
+                <a href="image.html">Go to image search</a>
+                <br>
+                <a href="index.html">Go to Google</a>
+            </div>
+        </div>
+
+        <!-- google afbeelding-->
+        <table>
+            <tr> 
+                <td><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+                    alt="google logo" class="left_logo" >
+                </td>
+            </tr>
+        </table>
+        <br><br><br><br>
+        <div class="form_advanced">
+            <form action="https://google.com/search">
+                <table class="table_advanced">
+                    <!-- table met verschillende input mogelijkheden-->
+                    <thead>
+                        <th>
+                            <tr>
+                                <td id="header1"> Find pages with...</td>
+                                <td></td>
+                                <td id="explanation"><b>Put this in the search box.</b></td>
+                            </tr>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>All of these words:</td>
+                            <td><input type="text_advanced" name=as_q></td>
+                            <td class="explain_text_table_advanced">Type the important words: rat terriër</td>
+                        </tr>
+                        <tr>
+                            <td>These exact words:</td>
+                            <td><input type="text_advanced" name=as_epq></td>
+                            <td class="explain_text_table_advanced">Put the exact words between quotation marks: "rat terriër"</td>
+                        </tr>
+                        <tr>
+                            <td>Any of these words:</td>
+                            <td><input type="text_advanced" name=as_oq></td>
+                            <td class="explain_text_table_advanced">Type OR between all the words you want to display: thumbnail OR by default</td>
+                        </tr>
+                        <tr>
+                            <td>None of these words:</td>
+                            <td><input type="text_advanced" name=as_eq></td>
+                            <td class="explain_text_table_advanced">Put a minus sign in front of words you don't want to display: -rodent, - "Jack Russell"</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <!-- submit button-->
+                            <td> <input id="button_advanced" type="submit" value="Advanced Search"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <!--footer onderaan de pagina-->
+        <div class="footer">
+            <p>Netherlands</p>
+        </div>
+    </body>
+</html>
